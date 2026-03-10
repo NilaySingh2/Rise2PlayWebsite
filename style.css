@@ -93,6 +93,16 @@ body {
 }
 .nav-link.nav-cta:hover { background: #c96b20; }
 
+.nav-link.nav-donate {
+  background: #2eab5f;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 0.4rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 6px;
+}
+.nav-link.nav-donate:hover { background: #239a51; }
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -198,6 +208,8 @@ body {
 .btn-ghost:hover  { background: rgba(255,255,255,0.12); border-color: #fff; }
 .btn-navy    { background: var(--navy); color: #fff; }
 .btn-navy:hover { background: #1e4a85; }
+.btn-green   { background: #2eab5f; color: #fff; }
+.btn-green:hover { background: #239a51; }
 
 .hero-wave {
   position: absolute;
